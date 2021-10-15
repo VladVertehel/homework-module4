@@ -1,4 +1,5 @@
-let sound = new Audio('soul.mp3')
+let sound = new Audio('soul.mp3');
+let laugh = new Audio('demonic_laugh.mp3');
 document.querySelector('.button').onclick = function(){
     alert('XAXAXAXAXAXAXAXAXAXAXA');
     this.classList.add('active');
@@ -7,4 +8,5 @@ document.querySelector('.button').onclick = function(){
     document.querySelector('.img').src='hell-hound.jpg';
     document.querySelector('body').classList.add('pressed');
     sound.play();
+    laugh.play();
 }
